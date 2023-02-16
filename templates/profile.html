@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMania</title>
+
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="{{ url_for('static', filename='icons/favicon.ico') }}">
+
+    <script type="text/javascript" src="{{ url_for('static',filename='app.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='jquery.min.js') }}" defer></script>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dashboard.css') }}">
+<!-- <link rel="stylesheet" href="/BookMania/static/dashboard.css">    -->
+    <!-- <link rel="stylesheet" href="../BookMania/styles/shared.css"> -->
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+    <div id="page-logo">
+        <a href="">BookMania</a>
+    </div>
+    <div class="header-1">
+        <nav>
+            <ul>
+                <li><a href="/dashboard.html">Home</a></li>
+
+                <li><a id="cart-btn" href="">Profile</a></li>
+                <li><a href="javascript:logout()">Log Out</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="/dashboard.html#home">home</a>
+            <a href="/dashboard.html#featured">featured</a>
+            <a href="/dashboard.html#arrivals">arrivals</a>
+            <a href="/dashboard.html#coins"><div id="cart-btn">coins</div></a>
+
+        </nav>
+    </div>
+
+</header>
+
+
+<!-- cart  -->
+
+<!-- header section ends -->
+
+<section class="home" id="home">
+    {% for user in userDetails %}
+    <div class="icons-container">
+
+        <div class="icons" style="margin-left: 500px;">
+            <h1> <i class="fas fa-user"></i> </h1>
+            <div class="content">
+                <h3>{{ user[0] }}</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons" style="margin-left: 500px;">
+            <h1> <i class="fas fa-address-card"></i> </h1>
+            <div class="content">
+                <h3> {{ user[1] }}</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons" style="margin-left: 500px;">
+            <h1> <i class="fas fa-envelope"></i> </h1>
+            <div class="content">
+                <h3>{{ user[2] }}</h3>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <br> <br>
+    <button style="margin-left: 500px;" onclick="changepass()" class="btn">Change Password</button>
+    
+    <div id="passc">
+        <br><br>
+        <div class="icons-container">
+
+            <div class="icons" style="margin-left: 500px;">
+                <h1> <i class="fas fa-unlock-alt"></i> </h1>
+                <div class="content">
+                    <h3><input type="password" placeholder="Enter new password" id="new-password" required></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="icons-container pass-box">
+
+            <div class="icons" style="margin-left: 500px;">
+                <h1> <i class="fas fa-unlock"></i> </h1>
+                <div class="content">
+                    <h3><input type="password" placeholder="Confirm new password" id="conf-new-password" required></h3>
+                </div>
+            </div>
+        </div>
+
+        <input type="button" class="btn" onclick="changePassword()" style="margin-left: 500px;" class="btn" value="Change">
+
+    </div>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<!-- <script src="js/script.js"></script> -->
+<script>
+    function changepass(){
+        var x = document.getElementById("passc");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+    }
+</script>
+
+</body>
+
+</html>

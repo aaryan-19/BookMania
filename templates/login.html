@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='shared.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='icons/favicon.ico') }}">
+    <script src="{{ url_for('static', filename='jquery.min.js') }}" defer></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='app.js') }}" defer></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <div id="page-logo">
+            <a href="">BookMania</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/signup.html">Signup</a></li>
+                <li><a href="/aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="loginbox transbox">
+            <h1>Login Here</h1>
+            <form class="" action="index.html" method="post" id="loginform">
+                <p>Email</p>
+                <input type="email" name="email" required placeholder="Enter email" id="email">
+                <p>Password</p>
+                <input type="password" name="password" required placeholder="Enter Password" id="password">
+                <input type="button" value="Login" onclick="Login()">
+                <a href="#">Forget password?</a><br>
+                <a href="/signup.html">Dont have an account?</a>
+
+            </form>
+        </div>
+    </main>
+
+    <!-- <script>
+        window.history.pushState({"html":response.html,"pageTitle":response.pageTitle},"", "{{ user_id }}");
+    </script> -->
+    <!-- <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='app.js') }}"></script> -->
+
+
+
+</body>

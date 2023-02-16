@@ -1,0 +1,115 @@
+[
+    {
+        "bookname": "100 ways",
+        "price": 100,
+        "author": "Steve Chandler",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/100waystomotivateyourself.jpg",
+        "book_pdf": "./Sample_Books/Books/100 ways to motivate yourself.pdf"
+    },
+    {
+        "bookname": "Boundaries",
+        "price": 1099,
+        "author": "Henry Cloud",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/Boundaries.jpg",
+        "book_pdf": "./Sample_Books/Books/Boundaries_ When to Say Yes, How to Say No to Take Control of Your Life ( PDFDrive ).pdf"
+    },
+    {
+        "bookname": "CRITICAL THINKING",
+        "price": 2100,
+        "author": "Bruce Waller",
+        "genre": "Study Aids",
+        "poster": "./Sample_Books/Covers/CRITICALTHINKING.jpg",
+        "book_pdf": "./Sample_Books/Books/CRITICAL THINKING_ Consider the Verdict Sixth Edition ( PDFDrive ).pdf"
+    },
+    {
+        "bookname": "Everything Is F*cked",
+        "price": 1828,
+        "author": "Mark Manson",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/EverythingIsF_cked.jpg",
+        "book_pdf": "./Sample_Books/Books/Everything Is F_cked.pdf"
+    },
+    {
+        "bookname": "Give and Take",
+        "price": 1143,
+        "author": "Adam Grant",
+        "genre": "Businness Managemet",
+        "poster": "./Sample_Books/Covers/Giveandtake.jpg",
+        "book_pdf": "./Sample_Books/Books/Give and Take_ WHY HELPING OTHERS DRIVES OUR SUCCESS ( PDFDrive ).pdf"
+    },
+    
+    {
+        "bookname": "Win Every Argument",
+        "price": 501,
+        "author": "Madson Pirie",
+        "genre": "Psychology",
+        "poster": "./Sample_Books/Covers/Howtowinanyargument.jpg",
+        "book_pdf": "./Sample_Books/Books/How to Win Every Argument ( PDFDrive ).pdf"
+    },
+    {
+        "bookname": "How To Win Friends",
+        "price": 668,
+        "author": "Dale Carnegie",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/Howtowinfriendsandinfluencepeople.jpg",
+        "book_pdf": "./Sample_Books/Books/How To Win Friends and Influence People ( PDFDrive ) (1).pdf"
+    },
+    {
+        "bookname": "I Am Malala",
+        "price": 251,
+        "author": "Christina Lamb",
+        "genre": "Biography",
+        "poster": "./Sample_Books/Covers/IamMalala.jpg",
+        "book_pdf": "./Sample_Books/Books/I am Malala.pdf"
+    },
+    {
+        "bookname": "Ikigai",
+        "price": 601,
+        "author": "Francesc Miralles",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/Ikigai.jpg",
+        "book_pdf": "./Sample_Books/Books/Ikigai.pdf"
+    },
+    {
+        "bookname": "Law of Success",
+        "price": 242,
+        "author": "Napoleon Hil",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/Lawofsuccess.jpg",
+        "book_pdf": "./Sample_Books/Books/Law of Success (21st Century Edition) ( PDFDrive ).pdf"
+    },
+    {
+        "bookname": "Living in the Light",
+        "price": 735,
+        "author": "Shakti Gawain",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/Livinginthelight.jpg",
+        "book_pdf": "./Sample_Books/Books/Living in the Light_ A guide to personal transformation ( PDFDrive ).pdf"
+    },
+    {
+        "bookname": "Rich Dad Poor Dad",
+        "price": 469,
+        "author": "Robert Kiyosaki",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/RichDadPoorDad.jpg",
+        "book_pdf": "./Sample_Books/Books/Rich Dad Poor Dad.pdf"
+    },
+    {
+        "bookname": "Smart Trust",
+        "price": 301,
+        "author": "Greg Link",
+        "genre": "Self-help book",
+        "poster": "./Sample_Books/Covers/SmartTrust.jpg",
+        "book_pdf": "./Sample_Books/Books/Smart Trust_ Creating Prosperity, Energy, and Joy in a Low-Trust World ( PDFDrive ).pdf"
+    },
+    {
+        "bookname": "The Alchemist",
+        "price": 105,
+        "author": "Paulo Coelho",
+        "genre": "Drama",
+        "poster": "./Sample_Books/Covers/TheAlchemist.jpg",
+        "book_pdf": "./Sample_Books/Books/The Alchemist.pdf"
+    }
+]

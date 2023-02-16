@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='shared.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='aboutUs.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='icons/favicon.ico') }}">
+</head>
+
+<body>
+
+    <header>
+        <div id="page-logo">
+            <a href="">BookMania</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/signup.html">Signup</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="about-section transbox">
+
+        <h1>BookMania</h1>
+        <p>A website that provides a simple user interface for researching and reading eBooks. You may find a variety of
+            books here, including comics and parts of life.</p>
+    </div>
+
+    <h2 style="text-align:center;">Our Team</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="{{ url_for('static', filename='icons/Aryan.jpeg') }}" alt="Aryan">
+                <div class="container transbox">
+                    <h2>Aryan Purohit</h2>
+                    <p class="title">Backend Developer</p>
+                    <p>Always looking to challenge myself for higher order problems.</p>
+                    <p>aryanpurohit6@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="{{ url_for('static', filename='icons/Varun.jpeg') }}" alt="Varun">
+                <div class="container transbox">
+                    <h2>Varun Hule</h2>
+                    <p class="title">Frontend Developer</p>
+                    <p>Loves to Desgin websites and do challenging projects</p>
+                    <p>varunhule@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="{{ url_for('static', filename='icons/Jagdish.jpeg') }}" alt="Jagdish">
+                <div class="container transbox">
+                    <h2>Jagdish Sindhi</h2>
+                    <p class="title">Frontend Developer</p>
+                    <p>Desgning website and working on databases is my interests</p>
+                    <p>jagdish@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="column second-column">
+            <div class="card">
+                <img src="{{ url_for('static', filename='icons/Krishna.jpeg') }}" alt="Krishna">
+                <div class="container transbox">
+                    <h2>Krishna Prashad</h2>
+                    <p class="title">Backend Developer</p>
+                    <p>Working how the website works behind the scenes is my interest.</p>
+                    <p>krishnayvs@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="column second-column">
+            <div class="card">
+                <img src="{{ url_for('static', filename='icons/Santosh.jpeg') }}" alt="Santosh">
+                <div class="container transbox">
+                    <h2>Santosh Narayan</h2>
+                    <p class="title">FrontEnd Developer</p>
+                    <p>I'm a passionate developer who loves coding and the web platform</p>
+                    <p>santosh@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>

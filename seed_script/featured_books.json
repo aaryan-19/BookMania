@@ -1,0 +1,42 @@
+[
+    {
+        "bookname": "The Rules of Work",
+        "price": 100,
+        "author" : "Richard Templar",
+        "genre" : "Business & Career",
+        "poster" : "./Featured_Books/Covers/The_rules_of_work.jpg",
+        "book_pdf": "./Featured_Books/Books/The_Rules_of_Work.pdf"
+    },
+    {
+        "bookname": "The Warren Buffett Way",
+        "price": 105,
+        "author" : "Robert G. Hagstrom",
+        "genre" : "Business & Career  Fiction & Literature  Finance",
+        "poster" : "./Featured_Books/Covers/The_Warren_Buffett_Way.jpg",
+        "book_pdf": "./Featured_Books/Books/The_Warren_Buffett_Way.pdf"
+    },
+    {
+        "bookname": "One Indian Girl",
+        "price": 209,
+        "author" : "Chetan Bhagat",
+        "genre" : " Fiction & Literature",
+        "poster" : "./Featured_Books/Covers/One_Indian_Girl.jpg",
+        "book_pdf": "./Featured_Books/Books/One_Indian_Girl.pdf"
+    },
+    {
+        "bookname": "The Monk Who Sold His Ferrari",
+        "price": 453,
+        "author" : "Robin S. Sharma",
+        "genre" : "Fiction & Literature",
+        "poster" : "./Featured_Books/Covers/The_monk_who_sold_his_ferrari.jpg",
+        "book_pdf": "./Featured_Books/Covers/The_Monk_Who_Sold_His_Ferrari.pdf"
+    },
+    {
+        "bookname": "The Girl with the Dragon Tatoo",
+        "price": 109,
+        "author" : "Stieg Larsson",
+        "genre" : "Mystery & Crime",
+        "poster" : "./Featured_Books/Covers/The_Girl_with_the_Dragon_Tattoo.jpg",
+        "book_pdf": "./Featured_Books/Books/TheGirlwiththeDragonTattoo.pdf"
+    }
+]

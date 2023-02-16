@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+.user-heading {
+
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px 500px 20px 500px;
+    
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.details{
+    background-color: black;
+    width: 600px;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+    margin: 70px auto;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+p{
+    font-size: 30px;
+}
+
+.pass {
+    align-items: center;
+}
