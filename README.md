@@ -28,7 +28,7 @@ This project is an ebook portal which has the following features:
 
 `python app.py`
 
-### Future Word
+### Future Works
 1. Implement the payment system using the actual API
 2. Divide the book into chapters and display to user with the option to switch between chapters
 3. User can preview inital few pages for the book, afterwards they can have the option to buy the whole book or unlock each chapters using coins.
